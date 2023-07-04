@@ -11,11 +11,34 @@ This project is a Python-based web scraper designed to extract information on me
 - **Pandas:** For data manipulation and analysis.
 - **os and sys:** Basic Python packages used for interacting with the system.
 
-## How to Run the Code
+## How to Setup the Project
 
-1. Install the required packages by running `pip install -r requirements.txt` in your terminal.
-2. Download the correct version of [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/](https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90/](https://sites.google.com/chromium.org/driver/downloads) and place it in the same directory as your script.
-3. Run `python -u main.py` in your terminal.
+1. **Install the required packages:**
+
+    Open your terminal and execute the following commands:
+
+    ```shell
+    pip install selenium
+    pip install webdriver_manager
+    pip install pandas
+    ```
+
+    These commands will install Selenium, WebDriver Manager, and pandas packages that are required for this project.
+   
+2. **Download the ChromeDriver:**
+
+    Download the correct version of [ChromeDriver](https://sites.google.com/chromium.org/driver/downloads) and place it in the same directory as your script.
+
+3. **Run the code:**
+
+    After completing the above steps, you can run the project. Use the following command to run the script:
+
+    ```shell
+    python -u main.py
+    ```
+
+Please note: Depending on your Python setup, you may need to use `pip3` instead of `pip` for the installation commands. And you may need to use `python3` instead of `python` for the command to run the script.
+
 
 
 
