@@ -14,7 +14,7 @@ This project is a Python-based web scraper designed to extract information on me
 ## How to Run the Code
 
 1. Install the required packages by running `pip install -r requirements.txt` in your terminal.
-2. Download the correct version of [ChromeDriver]([https://sites.google.com/a/chromium.org/chromedriver/](https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90/)) and place it in the same directory as your script.
+2. Download the correct version of [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/](https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90/](https://sites.google.com/chromium.org/driver/downloads) and place it in the same directory as your script.
 3. Run `python -u main.py` in your terminal.
 
 
