@@ -65,6 +65,7 @@ The major challenges during the project included dealing with JavaScript-heavy n
 3. **Dynamic Data Structure:** The structure of the data on the website was not consistent. Some pages had more columns than others, and the first two rows in the table body didn't have corresponding data and item names. This was handled by using conditional statements to adjust the data extraction process based on the structure of the data.
 
 4. **Data Cleaning:** The extracted data required substantial cleaning before it could be used. This included handling missing values, adjusting data formats, and inserting additional values for certain records.
+5. **Non-standard file format:** Even though there is a 'download excel' option on the website, the downloaded file is in HTML format rather than a standard Excel format. This means it could not be directly converted into CSV. To overcome this, I extracted the data from the HTML table using Selenium, structured the data in Python, and then saved it in the CSV format.
 
 ### Future Improvements
 
